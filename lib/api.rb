@@ -5,7 +5,7 @@ module JamBase4R
     class << self
       include Utility
       
-      API_URL = "http://api.jambase.com/search".freeze
+      API_URL = "http://api.jambase.com/events".freeze
       JAMBASE_PARAMETERS = [:zip, :radius, :band, :user].freeze
       PARAMETER_ALIAS_MAP = {:artist => :band}.freeze
       
